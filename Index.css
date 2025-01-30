@@ -1,0 +1,101 @@
+@import url(https://fonts.googleapis.com/css2?family=Familjen+Grotesk:ital,wght@0,400..700;1,400..700&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+*{
+padding:0
+margin: 0;
+box-sizing: border-box;
+font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+body{
+background-color: rgb(34, 56, 56);
+}
+.Login-form{
+
+    position:relative;
+    min-height: 100vh;
+    z-index: 0;
+    background: rgb(29, 131, 151);
+    padding: 40px;
+    justify-content: center;
+    display: grid;
+
+    grid-template-columns: 1fr auto 1fr;
+    align-items: center;
+}
+.container{
+    max-width: 1000px;
+    margin: 0 auto;
+
+}
+.Login-form h2{
+    line-height: 40px;
+    margin-bottom: 10px;
+    font-size: 30px;
+    font-weight: 500;
+    color: #4e34b6;
+    text-align: center;
+    
+}
+.Login-form .main{
+
+    position: relative;
+    display: flex;
+    margin: 40px 0;
+
+}
+.content{
+    flex-basis: 50%;
+    padding: 3em 3em;
+    background: rgb(84, 188, 223);
+    box-shadow:  2px 9px 49px -17px rgba(0, 0, 0, 0);
+    border-top-right-radius: 9px;
+border-bottom-left-radius: 9px;
+
+
+}
+.form-img{
+    flex-basis: 50%;
+    background: #e4e6e1;
+    background-size: cover;
+    padding: 40px;
+    border-top-right-radius: 8px;
+    align-items: center;
+    display: grid;
+}
+.form-img img{
+    max-width: 100%;
+}
+p{
+    color: #666;
+    font-size: 16px;
+    line-height: 25px;
+    opacity: 0.7;
+    text-align: center;
+    
+}
+.btn,button,input{
+    border-radius:  35px;
+}
+.btn:hover,
+button:hover{
+    transition: 0.10s ease;
+}
+a{
+    text-decoration: none;
+}
+.Login-form form{
+    margin: 30px 0;
+}
+.Login-form input{
+    outline: none;
+    margin-bottom: 15px;
+    font-stretch:  16px;
+    color: #999;
+    text-align: left;
+    padding: 14px 20px;
+    width: 50%;
+    display: inline-block;
+    box-sizing: border-box;
+    border: none;
+    background: rgba(245, 241, 241, 0.467);
+    transition: 0.3 ease;
+}
